@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+<!-- The core Firebase JS SDK is always required and must be listed first 
+<script src="/__/firebase/7.24.0/firebase-app.js"></script> -->
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries 
+<script src="/__/firebase/7.24.0/firebase-analytics.js"></script> -->
+
+<!-- Initialize Firebase 
+<script src="/__/firebase/init.js"></script> -->
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+  <title> Engine Invent</title>
+	
+
+
+	<!-- Favicon  -->
+	<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/a/a9/Rooster_icon_05.svg">
+    <!-- Firestore -->
+   <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script> 
+   <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase-firestore.js"></script>
+
+
+  </head>
+  <body>
+
+      <h1 style="text-align: center;" ><img src="https://firebasestorage.googleapis.com/v0/b/tutorial-caf1d.appspot.com/o/lab6%2Flogo.png?alt=media&token=eede365b-4bd7-4066-83d4-ffa402b49460" alt="" style="width:90px;height:90px;">  Engine Invent SAS  <br /> </h1> <div style="border: 1px solid black; width:109px; position:relative; top: -95px; left: 2px;">
+<a href="https://www.instagram.com/engine_invent/" align:"right"><img src="https://firebasestorage.googleapis.com/v0/b/tutorial-caf1d.appspot.com/o/lab6%2Finsta.png?alt=media&token=c5a4fe28-0f6a-4e17-8688-335b017ea19e" alt="" style="alig:center;"> <br /></a> </div>
+
+<div style="border: 1px solid white; width:400px;height:200px; position:absolute; top: 1px; right: 8px;"><h5>¡Muchas gracias por entrar a nuestra página! </h5> <p style="text-align: justify;"> Nuestros productos tienen la más alta calidad y contamos con proveedores nacionales para apoyar el emprendimiento colombiano, si quieres una impresión personalizada o asesoría con diseños 3D por favor dirígete a nuestra cuenta en Instagram o comunícate a este numero 300------- </p> </div>
+<p onmouseover="temperaturaUp()" id="temperatura">la tempreratura es </p>
+    <div class="container">
+</p><br /><br />IMPRESIONES</p>
+
+	<div style="border: 1px solid red; width:302px;height:370px;"> 
+      <img src="https://firebasestorage.googleapis.com/v0/b/tutorial-caf1d.appspot.com/o/lab6%2Fboat.jpeg?alt=media&token=ad3f981d-4cec-4a2a-b1ff-2b2c4fe3068a" alt="" style="width:300px;height:300px;"> 
+      <input type="text" id="Producto1" placeholder="           Bote PLA $50000 COP" class="form-control my-3" style="width:300px;height:50px;">
+	</div>
+
+	<div style="border: 1px solid red; width:302px;height:370px; position:relative; top: -370px; left: 400px;"> 
+      <img src="https://firebasestorage.googleapis.com/v0/b/tutorial-caf1d.appspot.com/o/lab6%2Ftanos.png?alt=media&token=efe8ab12-6241-4b61-8f2e-c6d1db865f13" alt="" style="width:300px;height:300px;"> 
+      <input type="text" id="Producto2" placeholder="             Thanos PLA $30000 COP" class="form-control my-3" style="width:300px;height:50px;">
+	</div>
+
+	<div style="border: 1px solid red; width:302px;height:370px; position:relative; top: -740px; left: 800px;"> 
+      <img src="https://firebasestorage.googleapis.com/v0/b/tutorial-caf1d.appspot.com/o/lab6%2Fxlon.png?alt=media&token=37593dc7-7add-44c6-8bc6-e50d34d18871" alt="" style="width:300px;height:300px;"> 
+      <input type="text" id="Producto3" placeholder="      Stormtrooper PLA $50000 COP" class="form-control my-3" style="width:300px;height:50px;">
+	</div>
+
+
+	<div style="border: 1px solid white; width:400px;height:200px; position:absolute; top: 600px; left: 121px;"></p><br/><br/>CONSUMIBLES</p></div>
+	<br/>
+        <div style="border: 1px solid white; width:400px;height:200px; position:absolute; top: 700px; left: 400px;">
+	<img src="https://firebasestorage.googleapis.com/v0/b/tutorial-caf1d.appspot.com/o/lab6%2Fconsumible.jpg?alt=media&token=e98bdc7d-1c4e-41d1-ba26-d78c9383f723" alt="" style="width:500px;height:500px;"><p><br />   	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+	Diámetro 1.75mm de 1Kg.</p> </div>
+
+
+
+<div style="border: 1px solid white; width:400px;height:200px; position:absolute; top: 1300px; left: 400px;">
+      <input type="text" id="Producto4" placeholder="PLA ($75.000)" class="form-control my-3" style="width:180px;height:40px;">
+
+
+      <input type="text" id="Producto5" placeholder="ABS ($75.000)" class="form-control my-3" style="width:180px;height:40px;">
+
+
+      <input type="text" id="Producto6" placeholder="PETG ($70.000)" class="form-control my-3" style="width:180px;height:40px;">
+</div>
+
+<div style="border: 1px solid white; width:400px;height:200px; position:absolute; top: 1300px; left: 850px;">
+      <input type="text" id="Producto7" placeholder="HIPS ($60.000)" class="form-control my-3" style="width:180px;height:40px;">
+
+
+      <input type="text" id="Producto8" placeholder="NYLON ($155.000)" class="form-control my-3" style="width:180px;height:40px;">
+
+      <input type="text" id="Producto9" placeholder="TPU ($120.000)" class="form-control my-3" style="width:180px;height:40px;">
+</div>
+
+	<div style="border: 1px solid white; width:400px;height:200px; position:absolute; top: 1485px; left: 400px;">
+	<input type="text" id="correo" placeholder="Email" class="form-control my-3" style="width:180px;height:40px;">
+	</div>
+
+	<div style="border: 1px solid white; width:400px;height:200px; position:absolute; top: 1485px; left: 850px;">
+	<input type="text" id="nombre" placeholder="Name" class="form-control my-3" style="width:180px;height:40px;">
+	</div>
+
+<br/><br/><br/><br/><br/><br/><br/><br/>
+
+      <button class="btn btn-info" id="boton" onclick="guardar()">Comprar</button>
+
+      <table class="table my-3">
+          <thead>
+            <tr>
+              <th scope="col">Id</th>
+              <th scope="col">cantidad Bote PLA</th>
+              <th scope="col">cantidad Thanos PLA</th>
+              <th scope="col">cantidad Stormtrooper PLA</th>
+ 	      <th scope="col">cantidad PLA</th>
+              <th scope="col">cantidad ABS</th>
+              <th scope="col">cantidad PETG</th>
+ 	      <th scope="col">cantidad HIPS</th>
+              <th scope="col">cantidad NYLON</th>
+              <th scope="col">cantidad TPU</th>
+              <th scope="col">Pago Total</th>
+            </tr>
+          </thead>
+          <tbody id="tabla">
+          </tbody>
+        </table>
+    </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+    <script src="https://firebasestorage.googleapis.com/v0/b/tutorial-caf1d.appspot.com/o/lab6%2Fapp.js?alt=media&token=6fde0ac0-465c-4559-a198-678b5f0bf079"></script>
+  </body>
+</html>
